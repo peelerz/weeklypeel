@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link rel="stylesheet" media="screen" type="text/css" title="Blog" href="..//blog completed/css/style.css">
+    <title>CONTACT</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="..//blog completed/blog.html">Home</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+       
+        <div class="center">
+        <h1>CONTACT FORM</h1>
+
+        <p>Please fullfill this form to never miss a week and get exclusive contents.</p> <br> <br> 
+        
+        </div>
+
+        <form>
+             
+            <div>
+                <label class="inputlabel" for="ttl">Title:</label>
+                <select name="titleName" id="ttl">
+                    <option label="Please select your title"></option>
+                    <option disabled>--------------------</option>
+                    <option value="mr">Man</option>
+                    <option value="mrs">Woman</option>
+                    <option value="lady">Lady</option>
+                    <option value="visualmaker">Video maker</option>
+                    <option value="beatmaker">Producer</option>
+                    <option value="painter">Painter</option>
+                </select>
+            </div>
+            <div>
+                <label class="inputlabel" for="fn">First Name:</label>
+                <input type="text" id="fn" name="firstName" minlength="2" maxlength="100" placeholder="Majin">
+            </div>
+            <div>
+                <label class="inputlabel" for="ln">Last Name:</label>
+                <input type="text" id="ln" name="lastName" minlength="2" maxlength="100" placeholder="Buu">
+            </div>
+            <div>
+                <label class="inputlabel" for="em">Email: *</label>
+                <input type="email" name="e-mail" id="em" maxlength="100" minlength="5" placeholder="majinbuu@gmail.com"
+                    required>
+            </div>
+            <div>
+                <label class="inputlabel" for="pw">Password: *</label>
+                <input type="password" name="pass-word" id="pw" minlength="8" maxlength="100"
+                    placeholder="enter password" required>
+            </div>
+            <div>
+                <label class="inputlabel" for="msg">Messages, suggestions:</label>
+                <textarea name="message" id="msg" cols="5" rows="5" maxlength="5000"
+                    placeholder="Enter message here"></textarea>
+            </div>
+        </div>
+
+        <div class="submitContainer">
+            <div>
+                <input type="checkbox" name="mailList" id="ml" checked>
+                <label for="ml">Newsletter</label>
+            </div>
+             <div>
+                    <input type="submit" value="SUBSCRIBE">
+             </div>
+                <span>Fields marked with an * are required</span>
+        </div>
+        </form>
+    </main>
+</body>
+
+</html>
